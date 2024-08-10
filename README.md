@@ -1,5 +1,5 @@
 # Zabbix
-Zabbix installation tutorial
+Zabbix installation tutorial.
 Prerequisites to install Zabbix 7.0 LTS:
 - sudo apt install apache2
 - sudo apt install php php-{cgi,common,mbstring,net-socket,gd,xml-util,mysql,bcmath,imap,snmp}
