@@ -10,3 +10,6 @@ https://ubuntu.com/server/docs/install-and-configure-a-mysql-server
 
 ## Download and install Zabbix
 https://www.zabbix.com/download?zabbix=7.0&os_distribution=ubuntu&os_version=24.04&components=server_frontend_agent&db=mysql&ws=apache
+## Tutorials:
+https://www.youtube.com/watch?v=m93vZManyL4
+https://www.youtube.com/watch?v=QHlbMKfllcY&list=PLF7Hh_ikyQDrNdkQWkHV1XMTW2f7nGp6O&index=5
