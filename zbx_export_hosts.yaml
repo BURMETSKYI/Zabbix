@@ -1,0 +1,17 @@
+zabbix_export:
+  version: '7.0'
+  host_groups:
+    - uuid: dc579cd7a1a34222933f24f52a68bcd8
+      name: 'Linux servers'
+  hosts:
+    - host: 'Google test'
+      name: 'Google test'
+      templates:
+        - name: 'Website by Browser'
+      groups:
+        - name: 'Linux servers'
+      macros:
+        - macro: '{$WEBSITE.DOMAIN}'
+          value: www.google.com
+          description: 'The domain name.'
+      inventory_mode: DISABLED
